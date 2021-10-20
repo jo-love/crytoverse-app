@@ -1,10 +1,9 @@
-import { Button, Menu, Typography, Avatar } from "antd";
+import { Menu, Typography, Avatar } from "antd";
 import { Link } from "react-router-dom";
 import {
   HomeOutlined,
   MoneyCollectOutlined,
-  BlubOutLined,
-  FuncOutlined,
+  FundOutlined,
   BulbOutlined,
 } from "@ant-design/icons";
 
@@ -23,11 +22,8 @@ const Navbar = () => {
         <Menu.Item icon={<HomeOutlined />}>
           <Link to="/">Home</Link>
         </Menu.Item>
-        <Menu.Item icon={<FuncOutlined />}>
+        <Menu.Item icon={<FundOutlined />}>
           <Link to="/cryptocurrencies">Cryptocurrencies</Link>
-        </Menu.Item>
-        <Menu.Item icon={<MoneyCollectOutlined />}>
-          <Link to="/exchanges">Exchanges</Link>
         </Menu.Item>
         <Menu.Item icon={<MoneyCollectOutlined />}>
           <Link to="/exchanges">Exchanges</Link>
